@@ -3,7 +3,9 @@ name = "deadpool_redis_cluster"
 version = "0.1.0"
 edition = "2021"
 authors = ["zaneli <shun.otani@gmail.com>"]
+repository = "https://github.com/zaneli/deadpool_redis_cluster"
+readme = "README.md"
 
 [dependencies]
-deadpool = { version = "0.9.0", features = ["managed"] }
+deadpool = { version = "0.9", features = ["managed"] }
 redis =  { version = "0.21", features = ["cluster"] }
