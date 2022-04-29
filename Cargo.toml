@@ -1,0 +1,7 @@
+[package]
+name = "deadpool_redis_cluster"
+version = "0.1.0"
+edition = "2021"
+authors = ["zaneli <shun.otani@gmail.com>"]
+
+[dependencies]
