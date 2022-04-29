@@ -5,3 +5,5 @@ edition = "2021"
 authors = ["zaneli <shun.otani@gmail.com>"]
 
 [dependencies]
+deadpool = { version = "0.9.0", features = ["managed"] }
+redis =  { version = "0.21", features = ["cluster"] }
